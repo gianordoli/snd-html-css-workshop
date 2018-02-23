@@ -1,3 +1,5 @@
+# SND 2018 NYC Workshop: Advancing your HTML and CSS skills
+
 * Drop Caps (::first-letter)
 * Quotes and optical alignment (negative indent)
 
