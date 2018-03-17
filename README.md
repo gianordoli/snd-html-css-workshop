@@ -7,50 +7,53 @@ Digital designers working in the editorial field or generally interested in layo
 
 **Prior knowledge:** basic Html and CSS.
 
+## Workshop Summary
+
+The first part of this workshop will be an in-depth view of Flexbox, focusing on responsive design.
+
+On the second part, we will see small code snippets inspired by print design.
+
+At last, students will be asked to pick one or more layouts from the inspiration folder and try to implement it. Ideally, the implementation should account for at least 2 breakpoints. Students should also feel free to pick a layout from a different source as inspiration.
+
 ## Expectations
 
-This workshop will focus on small code snippets you can use to improve your digital designs. Because we won't be dealing with the maintenance of a large stylesheet system, we won't go over typical production code features such as:
+Because we won't be dealing with the maintenance of a large stylesheet system, we won't go over typical production code features such as:
 
-* SASS, LESS, and other CSS extensions
+* SASS, LESS, or other preprocessor
 * Prefixing
 * Naming conventions
-* ...?
 
+## Workshop
 
-## Draft
+### Part 1: Flexbox
 
-### Basic tricks
-* Drop Caps (::first-letter)
-* Quotes and optical alignment (negative indent)
+* Direction
+* Justify-content
+* Shrink
+* Align-items
+* Order
+* Wrap
+* Vertical centering
+* Remaining space
 
-* Scaling typography based on vw
-* Highlight (with box-shadow)
-* Positioning elements based on vh/vw — type over photography? I especially like these asymmetrical openings by Sandra Garcia:
-	* [http://highline.huffingtonpost.com/articles/en/hillary-clinton-policy-agenda/](http://highline.huffingtonpost.com/articles/en/hillary-clinton-policy-agenda/)
-* CSS column!
-	* This is old, but underutilized! Nice example: [https://www.nytimes.com/interactive/2017/09/21/magazine/voyages-issue-photographs-family-vacations-around-world.html](https://www.nytimes.com/interactive/2017/09/21/magazine/voyages-issue-photographs-family-vacations-around-world.html)
-* vmin, vmax > maybe something with a square?
-* Flexbox
-	* Centering text vertically (!)
-	* Some more layout stuff
+### Part 2: Tips and Tricks
 
-### Maybe
-* transform > translate/rotate? It's old, but underutilized imo:
-	* [http://highline.huffingtonpost.com/articles/en/dark-tourism/](http://highline.huffingtonpost.com/articles/en/dark-tourism/)
-* object-fit and object-position?
-	* [https://css-tricks.com/almanac/properties/o/object-fit/](https://css-tricks.com/almanac/properties/o/object-fit/)
-	* [https://css-tricks.com/almanac/properties/o/object-position/](https://css-tricks.com/almanac/properties/o/object-position/)
-	* Maybe explain the advantage over having an img as background
-* CSS Grid?
-* position sticky?
-
-### Hacks
-* Aspect ratio: how to set up a fixed aspect ratio using padding bottom
+* Quotation marks
+* Drop Caps
+* Spread-like layout
+* Scaling typography based on viewport units
+* Object-fit
+* Transform
+* Proper text highlight
+* Proper text underline
+* Simple CSS multi-column layout
+* Paragraph splitter with image
+* Fixed aspect ratio !hack!
 
 ## Resources
 
-* https://caniuse.com/
-* https://css-tricks.com/
-
-# TO-DO
-Get magazine layouts from old SND's.
+* [Flexbox Cheatsheet](https://yoksel.github.io/flex-cheatsheet/)
+* [Can I use](https://caniuse.com/)
+* [CSS Tricks](https://css-tricks.com/)
+* [Jen Simmons](http://jensimmons.com/)
+* [A List Apart](http://alistapart.com/)
